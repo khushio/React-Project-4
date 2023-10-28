@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  max-width: 90pc;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  background: linear-gradient(black,rgba(52, 51, 51, 0), black);
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid white;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  background-color: #292a2c;
+  color: #fff;
+  border-bottom: 1px solid white;
+}
+
+tr {
+  background: linear-gradient(45deg, grey, white, grey);
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+}
